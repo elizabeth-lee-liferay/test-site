@@ -1,0 +1,13 @@
+/*# signifies an id and takes precedence over class*/
+#main_title {
+    color: rgb(148, 148, 255);
+    visibility: visible; /* because id takes precedence, the main title will be visible */
+}
+
+/*. signifies a class*/
+h1 {
+    color: rgba(62, 157, 173, 0.13);
+    visibility: visible;
+    
+}
+

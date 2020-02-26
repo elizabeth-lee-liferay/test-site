@@ -1,12 +1,15 @@
-<<<<<<< HEAD
 function displayDate()
 {
     document.getElementById("dateDisplay").innerHTML = Date();
 }
-||||||| merged common ancestors
-=======
-function hideButton()
+
+
+var person =
 {
-    document.getElementById("dateDisplay").innerHTML = Date();
-}
->>>>>>> 0a13d02f4c67bc7779a19e9436fa6743b5d32124
+    firstName: "Elizabeth", 
+    lastName: "Lee", 
+    age: 24, 
+    gender: "female"
+};
+
+alert(person.age);
